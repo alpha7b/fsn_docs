@@ -15,11 +15,11 @@
 
 Jack拥有5,000个FSN代币，但他很忙，是区块链技术的新手，不想经历设置和管理节点的过程。
 
-另一方面，Jill是一位经验丰富的节点管理人员和矿工，已经为Fusion网络部署了一个高功能节点。可能是使用了Fusion的简易指南。
+另一方面，Jill是一位经验丰富的节点管理人员和矿工，已经为Fusion网络部署了一个高功能节点。[可能是使用了Fusion的简易指南](https://fusionnetworks.zendesk.com/hc/en-us/sections/360004739313-Staking-on-Fusion-s-MainNet)。
 
 通过使用Fusion的时间锁定和量子交换功能，Jack和Jill可以很容易地以一种互惠互利的方式进行合作，从而最大限度地提高他们的回报。实际上，这个过程超级快速和简单。
 
-在阅读此示例之前，了解Fusion挖矿奖励的计算方式将很有帮助。所有这些都在这里解释。
+在阅读此示例之前，了解Fusion挖矿奖励的计算方式将很有帮助。[所有这些都在这里解释](https://medium.com/@fusionprotocol/with-mainnet-around-the-corner-what-rewards-can-we-expect-from-staking-ad7ecfa6afcd)。
 
 Jack在设定的时间段内将其5,000个FSN锁定。就本示例而言，假设从今天到未来2个月（现在，2个月）。
 
