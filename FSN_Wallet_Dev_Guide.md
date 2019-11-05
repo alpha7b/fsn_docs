@@ -44,7 +44,7 @@ As a synchronized node, it is necessary to open the `--gcmode=archive` parameter
 
 FSN node code is forked from [go - ethereum] (https://github.com/ethereum/go-ethereum). The RPC interface is compatible with ETH. Upper application interface is compatible with [web3. Js](https://github.com/ethereum/web3.js). FSN's Ticket, Asset, Timelock USAN, Swap, Staking functions provides [RPC extension interface](https://github.com/FUSIONFoundation/efsn/wiki/FSN-RPC-API) and [web3 extension interface](https://github.com/FUSIONFoundation/web3-fusion-extend).
 
-## Deposit recognition
+### Deposit recognition
 
 FSN network supports two types of transfer transactions, both of which can deposit:
 
