@@ -42,6 +42,32 @@ As a synchronized node, it is necessary to open the `--gcmode=archive` parameter
 
 ## Connect to FSN wallet
 
-FSN node code is forked from [go - ethereum] (https://github.com/ethereum/go-ethereum). The RPC interface is compatible with ETH. Upper application interface is compatible with [web3. Js] (https://github.com/ethereum/web3.js). FSN's Ticket, Asset, Timelock USAN, Swap, Staking functions provides [RPC extension interface](https://github.com/FUSIONFoundation/efsn/wiki/FSN-RPC-API) and [web3 extension interface](https://github.com/FUSIONFoundation/web3-fusion-extend).
+FSN node code is forked from [go - ethereum] (https://github.com/ethereum/go-ethereum). The RPC interface is compatible with ETH. Upper application interface is compatible with [web3. Js](https://github.com/ethereum/web3.js). FSN's Ticket, Asset, Timelock USAN, Swap, Staking functions provides [RPC extension interface](https://github.com/FUSIONFoundation/efsn/wiki/FSN-RPC-API) and [web3 extension interface](https://github.com/FUSIONFoundation/web3-fusion-extend).
 
+## Deposit recognition
 
+FSN network supports two types of transfer transactions, both of which can deposit:
+
+- By Default [sendAsset](https://github.com/FUSIONFoundation/efsn/wiki/FSN-RPC-API#fsntx_sendAsset)
+
+- Eth-compatible [sendtransaction](https://github.com/ethereum/wiki/wiki/JSON-RPC#eth_sendtransaction)
+
+Eth-compatible sendtransaction can use the same Deposit recognition code as ethereum. Generally, by monitoring the latest block, all the transactions in the block are obtained, and then the transaction list is traversed to identify whether the to address is a deposit address. If yes, it is a despoit transaction.
+
+The default sendAsset transaction is similar to erc20 smart contract transaction, and a piece of code needs to be added to recognize the deposit. The difference is that the actual 'to' address and transfer amount for this kind of transaction need to be obtained by parsing the data parameter of the receipt transaction. Interface uses [getTransactionAndReceipt](https://github.com/FUSIONFoundation/efsn/wiki/FSN-RPC-API#fsn_getTransactionAndReceipt). The transaction type is recognized through the parameter: ` "fsnLogTopic" : "SendAssetFunc `. Actual 'to' address and the Value of the transfer amount is recognized through this parameter:
+
+```
+"fsnLogData": {
+        "AssetID": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+        "To": "0x37a200388caa75edcc53a2bd329f7e9563c6acb6",
+        "Value": 1e+18
+      }
+```
+
+It is suggested that the confirmed number of blocks for deposit should be more than 30.
+
+### Withdrawal transaction
+
+Sending withdrawal transactions can use ethereum compatible withdrawal codes. After exchanging offline signature by [sendrawtransaction] (https://github.com/ethereum/wiki/wiki/JSON-RPC#eth_sendrawtransaction) interface to FSN node RPC interface.
+
+When exchanging signature, FSN mainet chainid=32659, testnet chainid=3
