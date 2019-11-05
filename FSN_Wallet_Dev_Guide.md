@@ -40,13 +40,13 @@ For test network, please add `--testnet` parameter.
 
 As a synchronized node, it is necessary to open the `--gcmode=archive` parameter to query all historical data. At block height  770,000, it occupies more than 100G of hard disk space. In this mode, it is necessary to prepare server storage space in advance (>300G is recommended).The default non-archive mode runs about 1G, but it is not possible to query some historical data.
 
-## Connect to FSN wallet
+## FSN wallet connection
 
 FSN node code is forked from [go - ethereum] (https://github.com/ethereum/go-ethereum). The RPC interface is compatible with ETH. Upper application interface is compatible with [web3. Js](https://github.com/ethereum/web3.js). FSN's Ticket, Asset, Timelock USAN, Swap, Staking functions provides [RPC extension interface](https://github.com/FUSIONFoundation/efsn/wiki/FSN-RPC-API) and [web3 extension interface](https://github.com/FUSIONFoundation/web3-fusion-extend).
 
 ### Deposit recognition
 
-FSN network supports two types of transfer transactions, both of which can deposit:
+FSN network supports two types of transfer transactions, both can deposit.
 
 - By Default [sendAsset](https://github.com/FUSIONFoundation/efsn/wiki/FSN-RPC-API#fsntx_sendAsset)
 
