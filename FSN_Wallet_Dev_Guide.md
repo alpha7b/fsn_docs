@@ -32,10 +32,14 @@ If you select miner during the deployment process, you need to enter the keystor
 
 `./build/bin/efsn console`
 
-4. Open RPC interface for the backend synchronization node
+4. Open the RPC interface as a backend synchronization node
 
 `nohup ./build/bin/efsn --datadir ./node1/ --rpc --rpcaddr 0.0.0.0 --rpcapi net,fsn,eth,web3 --rpcport 9001 --rpccorsdomain "*" &`
 
-For test network, please add '--testnet' parameter.
+For test network, please add `--testnet` parameter.
+
+As a synchronization node, it is necessary to open the `--gcmode=archive` parameter to query all historical data. At block height  770,000, it occupies more than 100G of hard disk space. In this mode, it is necessary to prepare server storage space in advance (>300G is recommended).The default non-archive mode runs about 1G, but it is not possible to query some historical data.
+
+
 
 
