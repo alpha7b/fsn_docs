@@ -10,7 +10,7 @@ FSN node supports two deployment methods:
 
 2. source code compilation and deployment
 
-### 1. docker deployment
+### 1. Docker deployment
 
 Run the command on a Linux system:
 
@@ -32,4 +32,10 @@ If you select miner during the deployment process, you need to enter the keystor
 
 `./build/bin/efsn console`
 
-4. 
+4. Open RPC interface for the backend synchronization node
+
+`nohup ./build/bin/efsn --datadir ./node1/ --rpc --rpcaddr 0.0.0.0 --rpcapi net,fsn,eth,web3 --rpcport 9001 --rpccorsdomain "*" &`
+
+For test network, please add '--testnet' parameter.
+
+
