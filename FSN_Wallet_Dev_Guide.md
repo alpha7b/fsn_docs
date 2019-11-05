@@ -54,7 +54,7 @@ FSN network supports two types of transfer transactions, both of which can depos
 
 Eth-compatible sendtransaction can use the same Deposit recognition code as ethereum. Generally, by monitoring the latest block, all the transactions in the block are obtained, and then the transaction list is traversed to identify whether the to address is a deposit address. If yes, it is a despoit transaction.
 
-The default sendAsset transaction is similar to erc20 smart contract transaction, and a piece of code needs to be added to recognize the deposit. The difference is that the actual 'to' address and transfer amount for this kind of transaction need to be obtained by parsing the data parameter of the receipt transaction. Interface uses [getTransactionAndReceipt](https://github.com/FUSIONFoundation/efsn/wiki/FSN-RPC-API#fsn_getTransactionAndReceipt). The transaction type is recognized through the parameter: ` "fsnLogTopic" : "SendAssetFunc `. Actual 'to' address and the Value of the transfer amount is recognized through this parameter:
+The default sendAsset transaction is similar to erc20 smart contract transaction, and a piece of code needs to be added to recognize the deposit. The difference is that the actual 'to' address and transfer amount for this kind of transaction need to be obtained by parsing the data parameter of the receipt transaction. Interface uses [getTransactionAndReceipt](https://github.com/FUSIONFoundation/efsn/wiki/FSN-RPC-API#fsn_getTransactionAndReceipt). The transaction type is recognized through the parameter: ` "fsnLogTopic" : "SendAssetFunc" `. The actual 'to' address and the Value of the transfer amount is recognized through this parameter:
 
 ```
 "fsnLogData": {
@@ -71,3 +71,6 @@ It is suggested that the confirmed number of blocks for deposit should be more t
 Sending withdrawal transactions can use ethereum compatible withdrawal codes. After exchanging offline signature by [sendrawtransaction] (https://github.com/ethereum/wiki/wiki/JSON-RPC#eth_sendrawtransaction) interface to FSN node RPC interface.
 
 When exchanging signature, FSN mainet chainid=32659, testnet chainid=3
+
+## Dev community
+If you have development problems, please join the development community: https://fsn.dev/group/
