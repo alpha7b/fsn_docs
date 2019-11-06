@@ -42,7 +42,7 @@ As a synchronized node, it is necessary to open the `--gcmode=archive` parameter
 
 ## FSN wallet interface
 
-FSN node code is forked from [go - ethereum](https://github.com/ethereum/go-ethereum). The RPC interface is compatible with ETH. Upper application interface is compatible with [web3. Js](https://github.com/ethereum/web3.js). FSN's Ticket, Asset, Timelock USAN, Swap, Staking functions provides [RPC extension interface](https://github.com/FUSIONFoundation/efsn/wiki/FSN-RPC-API) and [web3 extension interface](https://github.com/FUSIONFoundation/web3-fusion-extend).
+FSN node code is forked from [go - ethereum](https://github.com/ethereum/go-ethereum). The RPC interface is compatible with ETH. Upper application interface is compatible with [web3.js](https://github.com/ethereum/web3.js). FSN's Ticket, Asset, Timelock USAN, Swap, Staking functions provides [RPC extension interface](https://github.com/FUSIONFoundation/efsn/wiki/FSN-RPC-API) and [web3 extension interface](https://github.com/FUSIONFoundation/web3-fusion-extend).
 
 #### Deposit recognition
 
@@ -68,7 +68,7 @@ It is suggested that the confirmed number of blocks for deposit should be more t
 
 #### Withdrawal transaction
 
-Sending withdrawal transactions can use ethereum compatible withdrawal codes. After the transaction is signed offline, it is sent to the FSN node RPC interface through the [sendrawtransaction] (https://github.com/ethereum/wiki/wiki/JSON-RPC#eth_sendrawtransaction) interface.
+Sending withdrawal transactions can use ethereum compatible withdrawal codes. After the transaction is signed offline, it is sent to the FSN node RPC interface through the [sendrawtransaction](https://github.com/ethereum/wiki/wiki/JSON-RPC#eth_sendrawtransaction) interface.
 
 When transaction is signed, FSN mainet chainid=32659, testnet chainid=3
 
