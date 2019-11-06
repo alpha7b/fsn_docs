@@ -64,7 +64,7 @@ The default sendAsset transaction is similar to erc20 smart contract transaction
       }
 ```
 
-It is suggested that the confirmed number of blocks for deposit should be more than 30.
+It is suggested that the number of blocks to confirm a deposit should be more than 30.
 
 #### Withdrawal transaction
 
