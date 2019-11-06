@@ -1,12 +1,12 @@
 # FSN wallet development guide
 
-This document mainly describes the desposit, withdrawal, transfer, query and other interfaces involved in the development of FSN, such as exchanges, mining pools, wallets, etc., and how to one-click deploy FSN node.
+This document mainly describes the interfaces such as deposit, withdrawal, transfer and query involved in the development of FSN for exchanges, staking pools and wallets, as well as how to one-click deploy FSN node.
 
 ## Deploy FSN node
 
 FSN node supports two deployment methods:
 
-1. docker image one-click deployment, docker image address: https://hub.docker.com/u/fusionnetwork
+1. one-click deployment via docker image. docker image address: https://hub.docker.com/u/fusionnetwork
 
 2. source code compilation and deployment
 
@@ -32,13 +32,13 @@ If you select miner during the deployment process, you need to enter the keystor
 
 `./build/bin/efsn console`
 
-4. Open the RPC interface as a backend synchronized node
+4. As a backend synchronized node, open the RPC interface
 
 `nohup ./build/bin/efsn --datadir ./node1/ --rpc --rpcaddr 0.0.0.0 --rpcapi net,fsn,eth,web3 --rpcport 9001 --rpccorsdomain "*" &`
 
-For test network, please add `--testnet` parameter.
+For test network, please add the `--testnet` parameter.
 
-As a synchronized node, it is necessary to open the `--gcmode=archive` parameter to query all historical data. At block height  770,000, it occupies more than 100G of hard disk space. In this mode, it is necessary to prepare server storage space in advance (>300G is recommended).The default non-archive mode runs about 1G, but it is not possible to query some historical data.
+As a synchronized node, it is necessary to open the `--gcmode=archive` parameter to query all historical data. At block height 770,000, it occupies more than 100G of hard disk space. In this mode, it is necessary to prepare server storage space in advance (>300G is recommended).The default non-archive mode runs about 1G, but it is not possible to query some historical data.
 
 ## FSN wallet connection
 
@@ -68,9 +68,9 @@ It is suggested that the confirmed number of blocks for deposit should be more t
 
 ### Withdrawal transaction
 
-Sending withdrawal transactions can use ethereum compatible withdrawal codes. After exchanging offline signature by [sendrawtransaction] (https://github.com/ethereum/wiki/wiki/JSON-RPC#eth_sendrawtransaction) interface to FSN node RPC interface.
+Sending withdrawal transactions can use ethereum compatible withdrawal codes. After the transaction is signed offline, it is sent to the FSN node RPC interface through the [sendrawtransaction] (https://github.com/ethereum/wiki/wiki/JSON-RPC#eth_sendrawtransaction) interface.
 
-When exchanging signature, FSN mainet chainid=32659, testnet chainid=3
+When transaction is signed, FSN mainet chainid=32659, testnet chainid=3
 
 ## Dev community
 If you have development problems, please join the development community: https://fsn.dev/group/
