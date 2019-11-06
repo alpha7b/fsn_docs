@@ -10,7 +10,7 @@ FSN node supports two deployment methods:
 
 2. source code compilation and deployment
 
-### 1. Docker deployment
+#### 1. Docker deployment
 
 Run the command on a Linux system:
 
@@ -18,7 +18,7 @@ Run the command on a Linux system:
 
 If you select miner during the deployment process, you need to enter the keystore file content and password. For details, please refer to: https://fusionnetworks.zendesk.com/hc/en-us/categories/360001967614-Staking-On-Fusion-MainNet
 
-### 2. Source code compilation and deployment
+#### 2. Source code compilation and deployment
 
 1. Synchronize code
 
@@ -44,7 +44,7 @@ As a synchronized node, it is necessary to open the `--gcmode=archive` parameter
 
 FSN node code is forked from [go - ethereum] (https://github.com/ethereum/go-ethereum). The RPC interface is compatible with ETH. Upper application interface is compatible with [web3. Js](https://github.com/ethereum/web3.js). FSN's Ticket, Asset, Timelock USAN, Swap, Staking functions provides [RPC extension interface](https://github.com/FUSIONFoundation/efsn/wiki/FSN-RPC-API) and [web3 extension interface](https://github.com/FUSIONFoundation/web3-fusion-extend).
 
-### Deposit recognition
+#### Deposit recognition
 
 FSN network supports two types of transfer transactions, both can deposit.
 
@@ -66,11 +66,11 @@ The default sendAsset transaction is similar to erc20 smart contract transaction
 
 It is suggested that the confirmed number of blocks for deposit should be more than 30.
 
-### Withdrawal transaction
+#### Withdrawal transaction
 
 Sending withdrawal transactions can use ethereum compatible withdrawal codes. After the transaction is signed offline, it is sent to the FSN node RPC interface through the [sendrawtransaction] (https://github.com/ethereum/wiki/wiki/JSON-RPC#eth_sendrawtransaction) interface.
 
 When transaction is signed, FSN mainet chainid=32659, testnet chainid=3
 
-## Dev community
+### Dev community
 If you have development problems, please join the development community: https://fsn.dev/group/
