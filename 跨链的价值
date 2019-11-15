@@ -1,0 +1,380 @@
+# 数字资产正在冲击主流财富管理，是时候搞清楚跨链的价值了
+![财富管理机构正在寻求通过数字资产分散其投资组合](https://miro.medium.com/max/1280/1*Cbf6GMt9NLMLIfT5geHD8A.jpeg "财富管理机构正在寻求通过数字资产分散其投资组合")
+
+[1. 引言：牛市之前做好准备](https://github.com/alpha7b/notfinished/blob/master/DCRM_by_Karim.md#1-%E5%BC%95%E8%A8%80%E4%BD%A0%E6%98%AF%E5%90%A6%E5%AF%B9%E4%BB%8A%E5%B9%B4btc%E7%9A%84%E4%B8%8A%E6%B6%A8%E6%84%9F%E5%88%B0%E6%83%8A%E8%AE%B6%E5%B9%B6%E6%B2%A1%E6%9C%89)
+
+[2. 商业区块链或银行区块链需要解决的四个问题](https://github.com/alpha7b/notfinished/blob/master/DCRM_by_Karim.md#2-%E5%95%86%E4%B8%9A%E5%8C%BA%E5%9D%97%E9%93%BE%E5%81%9A%E5%A5%BD%E5%87%86%E5%A4%87%E7%9A%84%E5%9B%9B%E4%B8%AA%E5%BF%85%E8%A6%81%E6%9D%A1%E4%BB%B6)
+
+[3. 互操作性的概念](https://github.com/alpha7b/notfinished/blob/master/DCRM_by_Karim.md#3-%E4%BA%92%E6%93%8D%E4%BD%9C%E6%80%A7%E7%9A%84%E6%A6%82%E5%BF%B5%E5%85%BC%E5%AE%B9%E6%80%A7vs%E4%BA%92%E6%93%8D%E4%BD%9C%E6%80%A7)
+
+[4. 跨链价值多少](https://github.com/alpha7b/notfinished/blob/master/DCRM_by_Karim.md#4-%E8%B7%A8%E9%93%BE%E4%BB%B7%E5%80%BC%E5%A4%9A%E5%B0%91)
+
+[5. DCRM的内部是什么](https://github.com/alpha7b/notfinished/blob/master/DCRM_by_Karim.md#5-dcrm%E7%9A%84%E5%86%85%E9%83%A8%E6%98%AF%E4%BB%80%E4%B9%88)
+
+[6. DCRM的工作原理](https://github.com/alpha7b/notfinished/blob/master/DCRM_by_Karim.md#6-dcrm%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86)
+
+[7. 多维度对比各种跨链项目](https://github.com/alpha7b/notfinished/blob/master/DCRM_by_Karim.md#7-%E5%A4%9A%E7%BB%B4%E5%BA%A6%E5%AF%B9%E6%AF%94%E5%90%84%E7%A7%8D%E8%B7%A8%E9%93%BE%E9%A1%B9%E7%9B%AE)
+
+[8. DCRM的优势](https://github.com/alpha7b/notfinished/blob/master/DCRM_by_Karim.md#8-dcrm%E7%9A%84%E4%BC%98%E5%8A%BF)
+
+[9. 结论](https://github.com/alpha7b/notfinished/blob/master/DCRM_by_Karim.md#9-%E7%BB%93%E8%AE%BA)
+
+## 1. 引言：你是否对今年BTC的上涨感到惊讶？并没有
+
+越来越多的理财经理在寻找数字资产来多样化他们的投资组合，比如加密货币、证券、实用型代币以及代币化的投资工具。然而，目前数字资产在安全和便捷方面的不足依然是老练和传统投资者的主要障碍。数字资产的生态系统已经做好准备让银行和基金经理将数字资产提供给他们的客户了吗？将这些新兴的资产类别整合到传统的投资组合时，会遇到什么挑战？我们如何才能克服这些挑战?
+
+大家好，我是Karim Chaϊb，技术领导者，[XDLT](https://xdlt.tech/)创始人以及[FUSION](https://www.fusion.org/)的首席加密官，我想把事情做好！2017年，我决定推动瑞士一家世界领先的银行系统提供商踏上支持数字资产的征程，他们的银行系统管理着4万亿的资产。我的动机很简单，让大众有一个简单的方式来使用加密货币和数字资产。银行客户不应该把钱取出来，然后去一些有风险的外国加密货币交易所才能购买并存储代币。我们构建的解决方案使客户能够简单的通过电子银行或者通过打电话给理财经理，来买卖加密货币。
+
+在本文中，我们将探讨加密资产领域的最新发展和科技进步，这些科技进步使得使机构投资者、资深投资者甚至您自己的企业都能够参与到由代币经济带来的新机遇中。
+
+## 2. 商业区块链做好准备的四个必要条件
+
+1. **托管方案**（加密资产的存储方式及存储位置）：也许持有数字资产最重要的事情就是确定如何存储及保护私钥。问问自己，你会把私钥或者客户的私钥存放在哪里？谁能访问这个存储设备？要解决这个问题，需要认真审查一下各种各样的加密硬件安全模块（HSM）提供商。
+
+2. **法律框架和架构**：在我参与许多加密项目的过程中，我聘请了许多数字资产法律方面的专业律师，发现了以下几点:
+
+   A. 将客户的私钥隔离(没有公共帐户)，以增加安全性并最小化银行的责任。此外，通过这种方式，这些资产将不会出现在银行的资产负债表上。
+
+   B. 托管提供者必须支持所有的分叉，因为这代表了客户端的价值。
+   
+   C. 监管机构强制要求加密钱包在每笔交易中执行反洗钱(AML)。
+
+3. **市场验证**：2018年6月，我做了第一个原型，并在我们的年度会议上准备了一个演示，当时我们的客户注意到他们也可以原生支持加密货币。在一周的时间里，几大银行排队准备好开始试点。实际上，数字资产是银行区分所有同质化服务和吸引新一代的客户(X, Y, Z代)的一种方式。进一步的研究表明，相比投资传统股票，年轻一代更倾向于购买加密货币。
+
+>如果你问我，我个人是否看好加密的价格。2018年和2019年对大多数人来说都是熊市，但很少有人知道的是，在这几年里，银行把聪明的钱投入到构建支持加密货币和更广泛数字资产的技术系统上。即将上市的产品将由银行直接赞助，包括银行担保的加密货币借记卡、STO甚至ICO。这为客户提供了一种更正式的进入加密货币市场的方式，而不是像2017/2018年那样，面对经常是阴暗的ICO环境。这也为本地企业客户提供了另一种筹集资金并最终增加其管理资产(AUM)的途径。银行之间的竞争在于它们能够支持多少加密资产，以便为客户提供最多的选择。
+
+4. **实施**：在架构阶段，我们发现了两个重大挑战：
+
+   + 从哪里获得加密反洗钱(AML)、结算信息，以及通过SQL或API调用从任何区块链访问所有交易？(简而言之，我创立了[XDLT](http://xdlt.tech/))
+   
+   + 如何有效地集成所有这些不同的区块链和加密货币（超过2000种）？（简而言之，我加入了[Fusion基金会](https://www.fusion.org/)）
+   
+事实上，我希望在市场上找到一个简单的解决方案，允许我们在一个区块链中集成所有这些分布式账本技术。在去中心化的环境中，孤立的区块链无法相互通信是一个反复出现的问题。孤立的区块链间通信可能会对区块链的可伸缩性和主流采用造成压力。
+
+## 3. 互操作性的概念——兼容性VS互操作性
+
+互操作性是指将孤立的区块链连接起来，以实现不同系统之间的无缝交互。这有助于开发分散的应用程序，这些应用程序可以与更多的跨链进行互操作，并以去中心化和去信任的方式实现不受限制的价值和逻辑转移。
+
+在区块链领域中，有两个概念被错误地起来：兼容性和互操作性。兼容性意味着设置一个标准并强制行业参与者采用该标准，降低灵活性并要求每个解决方案都有一个严格的模型。我一直在寻找更好的解决方案，很明显，我想要的是一个不强制遵守的加密互操作性解决方案。
+
+**兼容性**：公证机制，中继（侧链/中继）和哈希锁定。
+
+   + 公证方案：在此系统中，使用可信实体或组来声明子链上的给定事件已经发生或某些声明是真实的。 它们可以根据给定链上的事件主动侦听并自动采取措施，也可以仅在出现提示时被动地发出签名消息。
+   
+   + 中继：这需要独立验证包含其使用的重要交易的区块头。这就要验证该区块内Merkle树的所有分支，交易之间的时间直接取决于与每个链相关联的区块时间，并且需要“最糟糕”的情况来进行跨链交易的验证时间。
+   
+   + 哈希锁：相对简单且功能有限，这是实现原子交换的一种方法。它通过让两个用户在一个智能合约中锁定他们的资金来实现这一点，该合约只有在第一个用户提供解锁双方的密钥后才能释放。
+
+*兼容性项目：[Polkadot](https://polkadot.network/), [Cosmos](https://cosmos.network/), [Interledger protocol](https://interledger.org/rfcs/0003-interledger-protocol/), [BTC Relay](http://btcrelay.org/), [Lightning Network HTLC hash locking technology](https://lightning.network/), [AION](https://aion.network/), [ICON](https://icon.foundation/), [Block Collider](https://www.blockcollider.org/), [Ark](https://docs.ark.io/introduction/ark/interoperability-and-ark.html), [Holochain](https://holochain.org/), [Atomic Swaps](https://en.bitcoin.it/wiki/Atomic_swap), [Komodos](https://komodoplatform.com/interoperability-cross-chain-smart-contracts/), [Blocknet](https://blocknet.co/blocknet/about/), [Lamden](https://lamden.io/), [Metronome](https://medium.com/georgetown-financial-technology-newsletter/bloq-and-the-metronome-project-bringing-longevity-and-cross-chain-interoperability-to-the-56b299c7f93d), [Quant Network](https://www.quant.network/technology/overledger/), [Dragonchain](https://dragonchain.com/), [Auxledger](https://auxesisgroup.com/technology.html), [EXRN](https://exrnchain.com/), [EOS](https://www.eoscanada.com/en/qa-how-inter-blockchain-communication-works-on-eos)*
+
+*加密级别的互操作性项目(**真正的互操作性**)：[Fusion](https://www.fusion.org/)的分布式私钥控制（DCRM），以及[Wanchain](https://wanchain.org/)*
+
+我正在寻找一种解决方案，该方案能够管理任何类型的区块链，而不必对任何基础账本强加严格的标准，也不必信任第三方供应商。2018年2月，只有Fusion和Wanchain两个项目朝这个方向发展，它们使用不同的分布式私钥分片模型来实现区块链互联。
+
+在过去的6个月中，Fusion项目通过推进他们的密码学研究并验证了其高度创新的互操作性解决方案（称为DCRM）而脱颖而出。他们核心技术团队的实力，以及他们聚集了世界上最好的密码学家（Paillier，Gennaro，Goldfeder，Goubin）从事DCRM工作的能力是一项重要的荣誉。Fusion处于验证一种全新且独特的方法的最后阶段，这种方法可以在不影响去中心化管理的情况下管理私有密钥。
+
+![这是我对可用项目的“ Gartner象限”图样式](https://miro.medium.com/max/572/1*xvylI9fOPpvNelECqsMiYg.png "这是我对可用项目的“ Gartner象限”图样式")
+
+## 4. 跨链价值多少
+
+在这一点上，我毫不怀疑，加密产业最终将捕获价值数万亿美元的资本。我认为，如果有人能够正确地实现分布式账本的互操作性，那么对这个解决方案的需求将是巨大的。如果该互操作性解决方案链接到一个功能型代币，那么需求当然会推高价格。我跟随Fusion团队测试了Fusion DCRM代码，评估了其数学原理，结果令人折服。我决定加入Fusion，并获得机会与[世界上最好的密码学家](https://www.globenewswire.com/news-release/2019/04/08/1798925/0/en/World-Class-Cryptographers-Join-Forces-with-Fusion-to-Build-Superior-Blockchain-Interoperability-and-Distributed-Custodial-Solution.html)验证了其安全性。
+
+Fusion是一个非营利组织，提供其DCRM开源代码来帮助：
+
++ 需要立即可用的互操作区块链的银行、交易所、财富管理公司、银行软件提供商将与Fusion协作以利用其技术套件：
+
+   + 军事级别安全性的私钥托管
+   
+   + 包含任何加密货币或数字资产的通用数字资产组合
+   
+   + 去中心化交易所的工具
+   
+   + 易于实现金融工具的功能
+   
+   + 快速且便宜的交易
+   
+   ![传统银行的网络通过DCRM组件支持所有的分布式账本技术](https://miro.medium.com/max/2044/1*t2QMnZ-DshVL92jJl4LCuw.png)
+   
++ 支持相互连接的智能城市和产业，这些城市和产业需要许多参与者共同工作，并在不同的系统之间进行互操作。
+
+![智能城市有许多不同的用例和区块链](https://miro.medium.com/max/1698/1*ZsLiQfUe9z--LcwguDnsUw.png "智能城市有许多不同的用例和区块链")
+
++ DCRM可以创建跨区块链，跨流程交互，以支持阿联酋等国家，比如迪拜到2020年，许多城市运转流程将建立在区块链上。
+
++ 任何想要从这个真正的加密级别互操作性突破中获益，并想要推动整个生态系统向前发展的区块链项目(特别是在本研究中提到的那个)。
+
++ 任何托管提供商或硬件安全模块提供商都可以从Fusion的DCRM中受益，通过消除任何单点故障来提高安全性。DCRM可以作为操作系统部署在HSM盒中，可以无限扩展，也可以在部署在云中。您甚至可以考虑由各种HSM提供者组成的网络，它们协作创建一个分布式托管服务，该服务也将DCRM应用于它们的硬件互操作性。这一行动可能由几家银行共同领导，愿意分担硬件成本，提高速度和最大限度地提高安全性。
+
+![传统的加密HSM VS 由DCRM驱动的加密HSM](https://miro.medium.com/max/891/1*VH87_dr1JTcOIJomY8yRTw.png "传统的加密HSM VS 由DCRM驱动的加密HSM")
+
+这是全部吗？肯定不是！
+
+仍然难以量化分布式账本技术与完整的区块链互操作性的组合如何革命性地改变行业，例如，甚至[马克·扎克伯格（Mark Zuckerberg）](https://www.theverge.com/2019/2/20/18233338/facebook-login-blockchain-mark-zuckerberg)也在Facebook的团队与他的团队一起研究区块链，探索身份验证是“使用我可能感兴趣的区块链”，尽管“我还没有找到一种可行的方法。”
+
+>“我们相信DCRM协议对去中心化(区块链、DLT)和中心化系统的重要性不亚于http对于互联网的重要性”。
+
+![DCRM协议对去中心化(区块链、DLT)和中心化系统的重要性不亚于http对于互联网的重要性](https://miro.medium.com/max/958/1*UmRSKI8aovnbHW5My94rlQ.png "DCRM协议对去中心化(区块链、DLT)和中心化系统的重要性不亚于http对于互联网的重要性")
+
+## 5. DCRM的内部是什么
+
+有两个主要的API：
+
+**KeyGenerate**将为用户创建一个地址，以lock-in要与之进行互操作的任何区块链中的任何资金。生成密钥的方式是，在任何时候都看不到关联的完整私钥。然后，您将通过lock-in以常规转账的方式将加密货币存入网络。您可以通过唯一的个人Fusion资产组合来控制资金，交易将在一个去中心化的托管系统中进行存储和保护。
+
+**Sign**您可以使用唯一的Fusion私钥签署入站交易或出站交易（lock-out）。优势在于，对于入站交易，Fusion层提供了一种去信任的会计系统，其中BTC转移只需几秒钟而不是几小时，而且费用便宜且易于计算。
+
+## 6. DCRM的工作原理
+
+一个简单的想法：您用一个唯一的密钥来控制任何任何区块链的任何资产。
+
+**数学安全**：采用el-Gamal、MPC、零知识证明、Paillier同态加密、分布式门限签名方案，如ECDSA、Edwards-curve Digital signature Algorithm (EdDSA)等。([安全审查](http://www.globenewswire.com/news-release/2019/04/08/1798925/0/en/World-Class-Cryptographers-Join-Forces-with-Fusion-to-Build-Superior-Blockchain-Interoperability-and-Distributed-Custodial-Solution.html))
+
+拥有来自多个不同区块链（例如BTC，NEO，EOS，ETH等）的资产的任何新用户都希望使用DCRM加入Fusion。**第一步是生成唯一的Fusion密钥，该密钥将控制来自任何区块链的任何资产**。然后，用户将启动Lock-In，包括调用KeyGenerate API并为来自任何区块链的每种资产创建存入地址。
+
+![DCRM的工作原理](https://miro.medium.com/max/943/1*tGGCwyJPp2exbt8nzG2Q4g.png "DCRM的工作原理")
+
+用户将创建一个交易以确保其所有资产都在DCRM的去中心化控制下存入，其余额和信息存储在DCRM账本（Fusion区块链）中。现在，所有资产都由用户的唯一密钥控制，并且资产展现已在DCRM分类账本中创建。该资产表示支持跨区块链智能合约。LO或Lock-Out是用户可以通过请求DRCM将其资产转移到他选择的任何地址来发起提取资产的过程。
+
+实际上，依靠所有者将资产所有权授予Fusion算法的DCRM和LILO流程的结合，用户能够在单一环境中跨异构数字资产交换价值，并可以知道他们的资产是由去中心化的安全保护和管理技术。[更多关于这篇LILO文章的信息](https://medium.com/@fusionprotocol/fusion-lock-in-and-lock-out-lilo-function-79dc9a0520a9)，或者这篇[文章](https://medium.com/fusionfoundation/blockchain-technology-breakthrough-pushes-the-global-financial-revolution-forward-3ec1c6630c52)，以及这个[视频](https://youtu.be/g8oj-2JLiX8)。
+
+现在，您已经了解了DCRM是什么，以及互操作性与兼容性的对比，现在来比较该领域中的现有项目。
+
+## 7. 多维度对比各种跨链项目
+
+![跨链对比](https://raw.githubusercontent.com/alpha7b/fsn_docs/master/pic/%E8%B7%A8%E9%93%BE%E5%AF%B9%E6%AF%94_%E4%B8%AD%E6%96%87.JPG)
+
+<table class="tg" style="undefined;table-layout: fixed; width: 1012px">
+<colgroup>
+<col style="width: 278.002976px">
+<col style="width: 194.002976px">
+<col style="width: 186.002976px">
+<col style="width: 136.002976px">
+<col style="width: 218.002976px">
+</colgroup>
+  <tr>
+    <th class="tg-nc47" colspan="5">跨链项目对比</th>
+  </tr>
+  <tr>
+    <td class="tg-ibyr"></td>
+    <td class="tg-y3z0">分布式私钥控制</td>
+    <td class="tg-y3z0">公证人</td>
+    <td class="tg-y3z0">中继</td>
+    <td class="tg-y3z0">哈希锁定</td>
+  </tr>
+  <tr>
+    <td class="tg-omj7"><span style="font-weight:bold">互操作性vs兼容性</span></td>
+    <td class="tg-omj7">完全互操作</td>
+    <td class="tg-omj7">兼容性</td>
+    <td class="tg-omj7">部分兼容性</td>
+    <td class="tg-omj7">兼容性</td>
+  </tr>
+  <tr>
+    <td class="tg-y3z0">信任模型</td>
+    <td class="tg-ibyr">数学模型</td>
+    <td class="tg-ibyr">多数公证人诚实（中心化）</td>
+    <td class="tg-ibyr">链不能失败，<br>不能被51%攻击</td>
+    <td class="tg-ibyr">链不能失败，<br>不能被51%攻击</td>
+  </tr>
+  <tr>
+    <td class="tg-hhng">支持跨链交换/可移植</td>
+    <td class="tg-omj7">是/是</td>
+    <td class="tg-omj7">是/是(需要通用的长期公证)</td>
+    <td class="tg-omj7">是/是</td>
+    <td class="tg-omj7">是/否</td>
+  </tr>
+  <tr>
+    <td class="tg-y3z0">支持跨链预言机</td>
+    <td class="tg-ibyr">是</td>
+    <td class="tg-ibyr">是</td>
+    <td class="tg-ibyr">是</td>
+    <td class="tg-ibyr">不能直接支持</td>
+  </tr>
+  <tr>
+    <td class="tg-hhng">支持跨链资产负担</td>
+    <td class="tg-omj7">是</td>
+    <td class="tg-omj7">是(需要通用的长期公证)</td>
+    <td class="tg-omj7">是</td>
+    <td class="tg-omj7">许多情况下支持，但有难度</td>
+  </tr>
+  <tr>
+    <td class="tg-y3z0">支持包含非兼容性区块链资产的<span style="font-weight:700">智能合约</span></td>
+    <td class="tg-ibyr">是</td>
+    <td class="tg-ibyr">否</td>
+    <td class="tg-ibyr">否</td>
+    <td class="tg-ibyr">否</td>
+  </tr>
+  <tr>
+    <td class="tg-hhng">支持跨链交易费优化</td>
+    <td class="tg-omj7">是</td>
+    <td class="tg-omj7">否</td>
+    <td class="tg-omj7">否</td>
+    <td class="tg-omj7">否</td>
+  </tr>
+  <tr>
+    <td class="tg-y3z0">支持跨链交易时间优化</td>
+    <td class="tg-ibyr">是</td>
+    <td class="tg-ibyr">否</td>
+    <td class="tg-ibyr">否</td>
+    <td class="tg-ibyr">否</td>
+  </tr>
+  <tr>
+    <td class="tg-hhng">支持跨链私钥管理</td>
+    <td class="tg-omj7">是</td>
+    <td class="tg-omj7">否</td>
+    <td class="tg-omj7">否</td>
+    <td class="tg-omj7">否</td>
+  </tr>
+  <tr>
+    <td class="tg-y3z0">跨链通用钱包</td>
+    <td class="tg-ibyr">是</td>
+    <td class="tg-ibyr">否</td>
+    <td class="tg-ibyr">否</td>
+    <td class="tg-ibyr">否</td>
+  </tr>
+  <tr>
+    <td class="tg-hhng">可通过HSM或加密托管方案来管理</td>
+    <td class="tg-omj7">是，可用做HSM的操作系统</td>
+    <td class="tg-omj7">否</td>
+    <td class="tg-omj7">否</td>
+    <td class="tg-omj7">No</td>
+  </tr>
+  <tr>
+    <td class="tg-y3z0">实施难度</td>
+    <td class="tg-ibyr">简单</td>
+    <td class="tg-ibyr">中等</td>
+    <td class="tg-ibyr">困难</td>
+    <td class="tg-ibyr">简单</td>
+  </tr>
+  <tr>
+    <td class="tg-hhng">领导者</td>
+    <td class="tg-omj7"><a href="https://www.fusion.org/">FUSION(DCRM)</a></td>
+    <td class="tg-omj7"><a href="https://interledger.org/rfcs/0003-interledger-protocol/">Interleger protocol</a></td>
+    <td class="tg-omj7"><a href="https://polkadot.network/">Polkadot</a>, <a href="https://cosmos.network/">Cosmos</a>, <br><a href="http://btcrelay.org/">BTC Relay</a></td>
+    <td class="tg-omj7"><a href="https://lightning.network/">Lighting Network hash locking</a></td>
+  </tr>
+  <tr>
+    <td class="tg-y3z0">其他项目</td>
+    <td class="tg-ibyr"><a href="https://wanchain.org/">Wanchain</a></td>
+    <td class="tg-ibyr"></td>
+    <td class="tg-ibyr" colspan="2"><a href="https://aion.network/">AION</a>, <a href="https://icon.foundation/">ICON</a>, <a href="https://www.blockcollider.org/">Block Colider</a>, <a href="https://docs.ark.io/introduction/ark/interoperability-and-ark.html">Ark</a>, <a href="https://holochain.org/">Holochain</a>, <br><a href="https://en.bitcoin.it/wiki/Atomic_swap">Atomic Swaps</a>, <a href="https://komodoplatform.com/interoperability-cross-chain-smart-contracts/">Komodos</a>, <a href="https://blocknet.co/blocknet/about/">Blocknet</a>, <a href="https://lamden.io/">Lamden</a>, <a href="https://medium.com/georgetown-financial-technology-newsletter/bloq-and-the-metronome-project-bringing-longevity-and-cross-chain-interoperability-to-the-56b299c7f93d">Metronome</a>, <a href="https://www.quant.network/technology/overledger/">Quant Network</a>, <a href="https://dragonchain.com/">Dragonchain</a>, <a href="https://auxesisgroup.com/technology.html">Auxledger</a>, <a href="https://exrnchain.com/">EXRN</a>, <a href="https://www.eoscanada.com/en/qa-how-inter-blockchain-communication-works-on-eos">EOS</a></td>
+  </tr>
+  <tr>
+    <td class="tg-hhng">结论</td>
+    <td class="tg-omj7">开源协议,通过去中心化方式管理目<br>标链的私钥，提供完全的互操作性自由。<br>支持跨区块链智能合同和钱包</td>
+    <td class="tg-omj7">中心化兼容性方案，<br>并非真正互操作性，<br>依赖于过时的模型</td>
+    <td class="tg-omj7" colspan="2">没有真正互操作性的兼容性解决方案或框架，强加了标准或去中心化。 <br>尽管如此，这些项目的某些方面对于空间中的其他方面(如可伸缩性)还是很有趣的</td>
+  </tr>
+</table>
+
+Fusion DCRM提出的分布式私钥控制是解决区块链互操作性的唯一现实途径
+
+## 8. DCRM的优势
+
+**安全性**
+
+在Fusion生态系统中的任何时候，Fusion算法都可以作为资产的可靠保护者：
+
++ 没有用户可以虚报自己的代币余额。
++ 任何用户都不能被他人错误地操纵其代币余额。
++ 通过交易级余额重建来跟踪资产的个人所有权，并将其汇总到Fusion的多代币钱包中。
++ 所有交易均经过共识验证，并由Fusion算法安全签名。使用类似于生成和存储分片密钥的方法，即使在交易签名过程中，用于fusion管理余额的私钥也不会完全重建。
+
+**自由选择**
+
+对于使用区块链来实现像Fusion(其他区块链也由Fusion的DCRM提供支持)这样的DCRM的开发者来说，这是一个明智的选择。实际上，业务逻辑是可重用的，通过遵循良好文档化的API很容易使用，并且适用于所有区块链，确保跨所有代的所有区块链的持续支持。这使得它易于开发，易于维护，易于将业务迁移到由Fusion的DCRM支持的区块链。在技术飞速发展的空间中，这是未来证明的选择。DCRM代表了真正的自由和非中介化，为生态系统提供了一个通用的解决方案，而不是像其他区块链项目所提议的那样，提供了一个死板且难以实现的标准。
+
+Fusion协议提供了开箱即用的金融功能，并且是第一个实现DCRM的区块链，交换位置，资产类型，支付类型和信任不再是价值交换的限制因素。例如，在亚洲持有EOS代币的房地产投资者现在可以在美国找到并投资已经数字化为可以用ETH支付的以太坊资产，而无需从一个交易所中查看两个单独的区块链和交换代币类型。
+
+## 9. 结论
+
+无论何种技术遗留系统，或者是公共链还是私有链，使用DCRM可以连接一切。DCRM是避免区块链被孤立和难以集成到其他技术系统中的最佳方法，并且是区块链和DLT生态系统的扩展和连接的桥梁。得益于DCRM加密技术的突破，您可以拥有自由流通的代币、智能合约，以支持您创建和消费丰富的金融应用程序的跨链交易，从而使世界进入价值互联网时代。
+
+现在开始！任何系统或区块链均可实施DCRM，因为它是控制任何其他区块链的开源协议。在https://dcrm.network/ 进行测试。
+
+Fusion基金会官网：https://fusion.org/
+
+通用区块链索引器XDLT：https://xdlt.tech
+
+关注我：https://linkedin.com/in/kczrh/
+
+联系我：karim@fusion.org
+
+原文：[Digital Assets hit the wealth management main stream, now is the time to know how much is chain Interoperability worth?](https://medium.com/@kczrh/digital-assets-hit-the-wealth-management-main-stream-now-is-the-time-to-know-how-much-is-chain-fd35bb09879f)
+
+---
+**参考：跨链项目的完整列表**
+
+Fusion https://www.fusion.org/
+
+Wanchain https://wanchain.org/
+
+Polkadot https://polkadot.network/
+
+Cosmos https://cosmos.network/
+
+Interledger protocol https://interledger.org/rfcs/0003-interledger-protocol/
+
+BTC Relay http://btcrelay.org/
+
+Lightning Network HTLC hash locking technology https://lightning.network/
+
+AION https://aion.network/
+
+ICON https://icon.foundation/
+
+Block Collider https://www.blockcollider.org/
+
+Ark https://docs.ark.io/introduction/ark/interoperability-and-ark.html
+
+Holochain https://holochain.org/
+
+Atomic Swaps https://en.bitcoin.it/wiki/Atomic_swap
+
+Komodos https://komodoplatform.com/interoperability-cross-chain-smart-contracts/
+
+Blocknet https://blocknet.co/blocknet/about/
+
+Lamden https://lamden.io/
+
+Metronome https://medium.com/georgetown-financial-technology-newsletter/bloq-and-the-metronome-project-bringing-longevity-and-cross-chain-interoperability-to-the-56b299c7f93d
+
+Quant Network https://www.quant.network/technology/overledger/
+
+Dragonchain https://dragonchain.com/
+
+Auxledger https://auxesisgroup.com/technology.html
+
+EXRN https://exrnchain.com/
+
+EOS https://www.eoscanada.com/en/qa-how-inter-blockchain-communication-works-on-eos
+
+
+**关于该主题的其他有趣文章:**
+
+https://medium.com/@Zhaojun.sh/%E5%8C%BA%E5%9D%97%E9%93%BE3-0-%E8%B7%A8%E9%93%BE%E6%8A%80%E6%9C%AF-8a0287b9232b
+
+https://hackernoon.com/whats-the-next-step-in-blockchain-technology-f479c425027a
+
+https://hackernoon.com/https-medium-com-specrationality-block-collider-a-new-approach-to-blockchain-interoperability-60eab1b21ae6
+
+https://freestartupkits.com/articles/technology/cryptocurrency-news-and-tips/best-cross-chain-protocols-for-blockchain-interoperability/
+
+http://troubles.md/posts/comparison-of-inter-blockchain-communication-technologies/
+
+https://www.investinblockchain.com/blockchain-interoperability-projects/
+
+https://blockonomi.com/blockchain-interoperability/
+
+https://blockonomi.com/what-is-polkadot/
+
+https://101blockchains.com/blockchain-interoperability/
+
+https://medium.com/blockchain-capital-blog/a-primer-on-blockchain-interoperability-e132bab805b
+
+https://hackernoon.com/overcoming-the-lack-of-interoperability-between-blockchains-d3fb5ccc308a
+
+https://medium.com/coinmonks/interoperability-the-holy-grail-of-blockchain-eb078e1a29cc
+
+Vitalik: https://static1.squarespace.com/static/55f73743e4b051cfcc0b02cf/t/5886800ecd0f68de303349b1/1485209617040/Chain+Interoperability.pdf
+
+
